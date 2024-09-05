@@ -7,6 +7,50 @@ body{
     flex-wrap: wrap;
 }
 
+/* Main */
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  /* On mouse-over */
+  .btn:hover {background: #eee;}
+  
+  .success {
+    color: black;
+    font-weight: 800;
+}
+
 .table {
     border: 5px ridge rgb(0, 9, 128);
+}
+
+
+#square {
+    width:150px;
+    height: 150px;
+    float: right;
+    border: 8px rgb(202, 22, 22) solid;
+    border-width: 5px;
+    border-radius: 50%;
+}
+
+#footer {
+    color: blue;
+    justify-content: center;
+        width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container1 {
+    margin: 50px;
+}
+
+.container2 {
+    margin: 50px;
 }
